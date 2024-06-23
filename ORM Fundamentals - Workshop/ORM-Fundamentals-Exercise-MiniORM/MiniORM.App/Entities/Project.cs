@@ -2,10 +2,10 @@
 
 using System.ComponentModel.DataAnnotations;
 
-public class Department
+public class Project
 {
     [Key] public int Id { get; set; }
     [Required] public string Name { get; set; }
 
-    public ICollection<Employee> Employees { get; set; }
+    public ICollection<EmployeeProject> EmployeeProjects { get; set; }
 }
