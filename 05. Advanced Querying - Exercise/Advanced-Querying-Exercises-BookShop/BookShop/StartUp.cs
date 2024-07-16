@@ -1,4 +1,11 @@
-﻿namespace BookShop
+﻿using System.Globalization;
+using System.Text;
+using BookShop.Data;
+using BookShop.Models;
+using BookShop.Models.Enums;
+using Microsoft.EntityFrameworkCore;
+
+namespace BookShop
 {
     public class StartUp
     {
@@ -182,8 +189,40 @@
         }
 
         //Problem 10
+        public static string GetBooksByAuthor(BookShopContext context, string input)
+        {
+            // Option 1
+
+            var books = context.Books
+                .Where(b => b.Author.LastName.ToLower().StartsWith(input.ToLower()))
+                .Select(b => new
+                {
+                    BookTitle = b.Title,
+                    AuthorName = b.Author.FirstName + " " + b.Author.LastName
+                });
+
+            return string.Join(Environment.NewLine,
+                books.Select(b => $"{b.BookTitle} ({b.AuthorName})"));
+
+
+            //var books = context.Books
+            //    .Where(b => EF.Functions.Like(b.Author.LastName, $"{input}%"))
+            //    .Select(b => new
+            //    {
+            //        BookTitle = b.Title,
+            //        AuthorName = b.Author.FirstName + " " + b.Author.LastName
+            //    });
+
+            //return string.Join(Environment.NewLine,
+            //    books.Select(b => $"{b.BookTitle} ({b.AuthorName})"));
+        }
 
         //Problem 11
+        public static int CountBooks(BookShopContext context, int lengthCheck)
+        {
+            return context.Books
+                .Count(b => b.Title.Length > lengthCheck);
+        }
 
         //Problem 12
         public static string CountCopiesByAuthor(BookShopContext context)
@@ -236,14 +275,63 @@
         }
 
         //Problem 14
-        //public static string GetMostRecentBooks(BookShopContext context)
-        //{
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var categories = context.Categories
+                .Select(c => new
+                {
+                    CatName = c.Name,
+                    MostRecentBooks = c.CategoryBooks.OrderByDescending(bc => bc.Book.ReleaseDate)
+                        .Take(3)
+                        .Select(cb => new
+                        {
+                            BookTitle = cb.Book.Title,
+                            cb.Book.ReleaseDate!.Value.Year
+                        })
+                })
+                .OrderBy(c => c.CatName);
 
-        //}
+            StringBuilder sb = new StringBuilder();
 
+            foreach (var category in categories)
+            {
+                sb.AppendLine($"--{category.CatName}");
+                foreach (var mostRecentBook in category.MostRecentBooks)
+                {
+                    sb.AppendLine($"{mostRecentBook.BookTitle} ({mostRecentBook.Year})");
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
         //Problem 15
+        public static void IncreasePrices(BookShopContext context)
+        {
+            Book[] books = context.Books
+                .Where(b => b.ReleaseDate!.Value.Year < 2010)
+                 //.Where(b => b.ReleaseDate.HasValue &&
+                 //b.ReleaseDate.Value.Year < 2010);
+                 .ToArray();
+
+            foreach (var book in books)
+            {
+                book.Price += 5;
+            }
+            context.BulkDelete(books);
+        }
 
         //Problem 16
+        public static int RemoveBooks(BookShopContext context)
+        {
+            context.ChangeTracker.Clear();
+
+            var books = context.Books
+                .Where(b => b.Copies < 4200);
+
+            context.RemoveRange(books);
+
+            return context.SaveChanges();
+        }
     }
 }
 
