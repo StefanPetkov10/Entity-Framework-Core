@@ -12,9 +12,9 @@ namespace ProductShop
         public static void Main()
         {
             ProductShopContext context = new ProductShopContext();
-            string inputJson = File.ReadAllText("../../../Datasets/categories.json");
+            string inputJson = File.ReadAllText("../../../Datasets/categories-products.json");
 
-            string result = ImportCategories(context, inputJson);
+            string result = ImportCategoryProducts(context, inputJson);
             Console.WriteLine(result);
 
             //mapper = new Mapper(new MapperConfiguration(cfg =>
@@ -53,7 +53,6 @@ namespace ProductShop
 
             return $"Successfully imported {ValidUsers.Count}";
         }
-
 
         //Problim 02
         //Method that add products without foreach loop
@@ -97,6 +96,36 @@ namespace ProductShop
             context.SaveChanges();
 
             return $"Successfully imported {validCategories.Count}";
+        }
+
+        //Problim 04
+        public static string ImportCategoryProducts(ProductShopContext context, string inputJson)
+        {
+            IMapper mapper = MapperMethod();
+
+            ImportCategoryProductDto[] categoryProductDtos =
+                  JsonConvert.DeserializeObject<ImportCategoryProductDto[]>(inputJson);
+
+            ICollection<CategoryProduct> validEnries = new HashSet<CategoryProduct>();
+
+            foreach (var cpDto in categoryProductDtos)
+            {
+                if (!context.Categories.Any(c => c.Id == cpDto.CategoryId) ||
+                    !context.Products.Any(p => p.Id == cpDto.ProductId))
+                {
+                    continue;
+                }
+
+                CategoryProduct categoryProduct =
+                    mapper.Map<CategoryProduct>(cpDto);
+
+                validEnries.Add(categoryProduct);
+            }
+
+            context.CategoriesProducts.AddRange(validEnries);
+            context.SaveChanges();
+
+            return $"Successfully imported {validEnries.Count}";
         }
     }
 }
