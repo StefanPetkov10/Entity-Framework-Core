@@ -10,6 +10,12 @@ namespace ProductShop
         {
             //User
             CreateMap<ImportUserDto, User>();
+
+            //Product
+            CreateMap<ImportProductDto, Product>();
+
+            //Category
+            CreateMap<ImportCategoryDto, Category>();
         }
     }
 }
