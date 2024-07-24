@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using ProductShop.Data;
+using ProductShop.DTOs.Export;
 using ProductShop.DTOs.Import;
 using ProductShop.Models;
 
@@ -12,9 +16,11 @@ namespace ProductShop
         public static void Main()
         {
             ProductShopContext context = new ProductShopContext();
-            string inputJson = File.ReadAllText("../../../Datasets/categories-products.json");
 
-            string result = ImportCategoryProducts(context, inputJson);
+            //string inputJson = 
+            //    File.ReadAllText("../../../Datasets/categories-products.json");
+
+            string result = GetProductsInRange1(context);
             Console.WriteLine(result);
 
             //mapper = new Mapper(new MapperConfiguration(cfg =>
@@ -23,13 +29,7 @@ namespace ProductShop
             //    //.CreateMapper());
             //}));
         }
-        private static IMapper MapperMethod()
-        {
-            return new Mapper(new MapperConfiguration(cfg =>
-            {
-                cfg.AddProfile<ProductShopProfile>();
-            }));
-        }
+
 
         //Problim 01
         //Method that add users with foreach loop
@@ -126,6 +126,67 @@ namespace ProductShop
             context.SaveChanges();
 
             return $"Successfully imported {validEnries.Count}";
+        }
+
+        //Problim 05.1
+        //Anonymous object + Manual Mapping
+        //DTO + Manual Mapping
+        //DTO + AutoMapper
+        public static string GetProductsInRange(ProductShopContext context)
+        {
+            //#Anonymous object + Manual Mapping
+            var products = context.Products
+                .Where(p => p.Price >= 500 && p.Price <= 1000)
+                .OrderBy(p => p.Price)
+                .Select(p => new
+                {
+                    name = p.Name,
+                    price = p.Price,
+                    seller = p.Seller.FirstName + " " + p.Seller.LastName
+                })
+                .AsNoTracking()
+                .ToArray();
+
+            return JsonConvert.SerializeObject(products, Formatting.Indented);
+        }
+
+        //Problim 05.2
+        public static string GetProductsInRange1(ProductShopContext context)
+        {
+            //#DTO + AutoMapper
+            IMapper mapper = MapperMethod();
+
+            ExportProductRangeDto[] productDtos = context.Products
+                .Where(p => p.Price >= 500 && p.Price <= 1000)
+                .OrderBy(p => p.Price)
+                .AsNoTracking()
+                .ProjectTo<ExportProductRangeDto>(mapper.ConfigurationProvider)
+                .ToArray();
+
+            return JsonConvert.SerializeObject(productDtos, Formatting.Indented);
+        }
+
+        //Problim 06
+        public static string GetSoldProducts(ProductShopContext context)
+        {
+            ConfigureCamelCaseNaming();
+
+        }
+
+
+        private static IMapper MapperMethod()
+        {
+            return new Mapper(new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<ProductShopProfile>();
+            }));
+        }
+        private static IContractResolver ConfigureCamelCaseNaming()
+        {
+            return new DefaultContractResolver
+            {
+                NamingStrategy = new CamelCaseNamingStrategy(false, true)
+            };
         }
     }
 }
