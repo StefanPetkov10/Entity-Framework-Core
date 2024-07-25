@@ -20,7 +20,7 @@ namespace ProductShop
             //string inputJson = 
             //    File.ReadAllText("../../../Datasets/categories-products.json");
 
-            string result = GetCategoriesByProductsCount(context);
+            string result = GetUsersWithProducts(context);
             Console.WriteLine(result);
 
             //mapper = new Mapper(new MapperConfiguration(cfg =>
@@ -212,10 +212,10 @@ namespace ProductShop
                 {
                     Category = c.Name,
                     ProductsCount = c.CategoriesProducts.Count,
-                    AveragePrice = (c.CategoriesProducts.Any() ?
-                    c.CategoriesProducts.Average(cp => cp.Product.Price) : 0).ToString("f2"),
-                    TotalRevenue = (c.CategoriesProducts.Any() ?
-                    c.CategoriesProducts.Sum(cp => cp.Product.Price) : 0).ToString("f2")
+                    AveragePrice = Math.Round((double)(c.CategoriesProducts.Any() ?
+                    c.CategoriesProducts.Average(cp => cp.Product.Price) : 0), 2),
+                    TotalRevenue = Math.Round((double)(c.CategoriesProducts.Any() ?
+                    c.CategoriesProducts.Sum(cp => cp.Product.Price) : 0), 2)
                 })
                 .ToArray();
 
@@ -227,6 +227,49 @@ namespace ProductShop
                 });
         }
 
+        //Problem 08
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            IContractResolver contractResolver = ConfigureCamelCaseNaming();
+
+            var users = context.Users
+                .Where(u => u.ProductsSold.Any(p => p.Buyer != null))
+                .Select(u => new
+                { // UserDto
+                    u.FirstName,
+                    u.LastName,
+                    u.Age,
+                    SoldProducts = new
+                    { // ProductWrapperDto
+                        Count = u.ProductsSold.Count(ps => ps.Buyer != null),
+                        Products = u.ProductsSold
+                            .Where(p => p.Buyer != null)
+                            .Select(p => new
+                            { // ProductDto
+                                p.Name,
+                                p.Price
+                            })
+                            .ToArray()
+                    }
+                })
+                .OrderByDescending(u => u.SoldProducts.Count)
+                .AsNoTracking()
+                .ToArray();
+
+            var userWrapperDto = new
+            {
+                UsersCount = users.Length,
+                Users = users
+            };
+
+            return JsonConvert.SerializeObject(userWrapperDto,
+                Formatting.Indented,
+                new JsonSerializerSettings()
+                {
+                    ContractResolver = contractResolver,
+                    NullValueHandling = NullValueHandling.Ignore
+                });
+        }
 
         private static IMapper MapperMethod()
         {
