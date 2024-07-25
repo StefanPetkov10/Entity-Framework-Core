@@ -20,7 +20,7 @@ namespace ProductShop
             //string inputJson = 
             //    File.ReadAllText("../../../Datasets/categories-products.json");
 
-            string result = GetSoldProducts(context);
+            string result = GetCategoriesByProductsCount(context);
             Console.WriteLine(result);
 
             //mapper = new Mapper(new MapperConfiguration(cfg =>
@@ -194,6 +194,32 @@ namespace ProductShop
                 .ToArray();
 
             return JsonConvert.SerializeObject(usersWithSoldProducts,
+                Formatting.Indented,
+                new JsonSerializerSettings()
+                {
+                    ContractResolver = contractResolver
+                });
+        }
+
+        //Problem 07
+        public static string GetCategoriesByProductsCount(ProductShopContext context)
+        {
+            IContractResolver contractResolver = ConfigureCamelCaseNaming();
+
+            var categories = context.Categories
+                .OrderByDescending(c => c.CategoriesProducts.Count)
+                .Select(c => new
+                {
+                    Category = c.Name,
+                    ProductsCount = c.CategoriesProducts.Count,
+                    AveragePrice = (c.CategoriesProducts.Any() ?
+                    c.CategoriesProducts.Average(cp => cp.Product.Price) : 0).ToString("f2"),
+                    TotalRevenue = (c.CategoriesProducts.Any() ?
+                    c.CategoriesProducts.Sum(cp => cp.Product.Price) : 0).ToString("f2")
+                })
+                .ToArray();
+
+            return JsonConvert.SerializeObject(categories,
                 Formatting.Indented,
                 new JsonSerializerSettings()
                 {
