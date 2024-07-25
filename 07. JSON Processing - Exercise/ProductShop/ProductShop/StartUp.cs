@@ -20,7 +20,7 @@ namespace ProductShop
             //string inputJson = 
             //    File.ReadAllText("../../../Datasets/categories-products.json");
 
-            string result = GetProductsInRange1(context);
+            string result = GetSoldProducts(context);
             Console.WriteLine(result);
 
             //mapper = new Mapper(new MapperConfiguration(cfg =>
@@ -169,8 +169,36 @@ namespace ProductShop
         //Problim 06
         public static string GetSoldProducts(ProductShopContext context)
         {
-            ConfigureCamelCaseNaming();
+            IContractResolver contractResolver = ConfigureCamelCaseNaming();
 
+            var usersWithSoldProducts = context.Users
+                .Where(u => u.ProductsSold.Any(ps => ps.Buyer != null))
+                .OrderBy(u => u.LastName)
+                .ThenBy(u => u.FirstName)
+                .Select(u => new
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    SoldProducts = u.ProductsSold
+                        .Where(ps => ps.Buyer != null)
+                        .Select(ps => new
+                        {
+                            Name = ps.Name,
+                            Price = ps.Price,
+                            BuyerFirstName = ps.Buyer.FirstName,
+                            BuyerLastName = ps.Buyer.LastName
+                        })
+                        .ToArray()
+                })
+                .AsNoTracking()
+                .ToArray();
+
+            return JsonConvert.SerializeObject(usersWithSoldProducts,
+                Formatting.Indented,
+                new JsonSerializerSettings()
+                {
+                    ContractResolver = contractResolver
+                });
         }
 
 
