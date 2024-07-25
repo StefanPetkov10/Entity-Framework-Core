@@ -1,14 +1,4 @@
-﻿using AutoMapper;
-using AutoMapper.QueryableExtensions;
-using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
-using ProductShop.Data;
-using ProductShop.DTOs.Export;
-using ProductShop.DTOs.Import;
-using ProductShop.Models;
-
-namespace ProductShop
+﻿namespace ProductShop
 {
     public class StartUp
     {
@@ -31,7 +21,7 @@ namespace ProductShop
         }
 
 
-        //Problim 01
+        //Problem 01
         //Method that add users with foreach loop
         //We have validation for the users
         public static string ImportUsers(ProductShopContext context, string inputJson)
@@ -54,7 +44,7 @@ namespace ProductShop
             return $"Successfully imported {ValidUsers.Count}";
         }
 
-        //Problim 02
+        //Problem 02
         //Method that add products without foreach loop
         public static string ImportProducts(ProductShopContext context, string inputJson)
         {
@@ -71,7 +61,7 @@ namespace ProductShop
             return $"Successfully imported {products.Length}";
         }
 
-        //Problim 03
+        //Problem 03
         public static string ImportCategories(ProductShopContext context, string inputJson)
         {
             IMapper mapper = MapperMethod();
@@ -98,7 +88,7 @@ namespace ProductShop
             return $"Successfully imported {validCategories.Count}";
         }
 
-        //Problim 04
+        //Problem 04
         public static string ImportCategoryProducts(ProductShopContext context, string inputJson)
         {
             IMapper mapper = MapperMethod();
@@ -128,7 +118,7 @@ namespace ProductShop
             return $"Successfully imported {validEnries.Count}";
         }
 
-        //Problim 05.1
+        //Problem 05.1
         //Anonymous object + Manual Mapping
         //DTO + Manual Mapping
         //DTO + AutoMapper
@@ -150,7 +140,7 @@ namespace ProductShop
             return JsonConvert.SerializeObject(products, Formatting.Indented);
         }
 
-        //Problim 05.2
+        //Problem 05.2
         public static string GetProductsInRange1(ProductShopContext context)
         {
             //#DTO + AutoMapper
@@ -166,7 +156,7 @@ namespace ProductShop
             return JsonConvert.SerializeObject(productDtos, Formatting.Indented);
         }
 
-        //Problim 06
+        //Problem 06
         public static string GetSoldProducts(ProductShopContext context)
         {
             IContractResolver contractResolver = ConfigureCamelCaseNaming();
