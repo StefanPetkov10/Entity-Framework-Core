@@ -1,0 +1,128 @@
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.exe
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.deps.json
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.runtimeconfig.json
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.pdb
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.csproj.AssemblyReference.cache
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.AssemblyInfoInputs.cache
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.AssemblyInfo.cs
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.csproj.CopyComplete
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\refint\TravelAgency.dll
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.pdb
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.genruntimeconfig.cache
+C:\Users\Stefan\Downloads\Entity-Framework-Core-Csharp-main (1)\Entity-Framework-Core-Csharp-main\Regular Exam\TravelAgency\obj\Debug\net6.0\ref\TravelAgency.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.exe
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.deps.json
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.runtimeconfig.json
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\TravelAgency.pdb
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\AutoMapper.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Castle.Core.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Humanizer.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.csproj.AssemblyReference.cache
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.GeneratedMSBuildEditorConfig.editorconfig
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.AssemblyInfoInputs.cache
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.AssemblyInfo.cs
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAg.A03B1C71.Up2Date
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\refint\TravelAgency.dll
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.pdb
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\TravelAgency.genruntimeconfig.cache
+D:\SoftUni\C# Database\Entity Framework Core\28. Regular Exam\Regular Exam\TravelAgency\obj\Debug\net6.0\ref\TravelAgency.dll
